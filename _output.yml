@@ -4,7 +4,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Un petit manual de psychologie contemporaine à destination de ceux qui souffrent</a></li>
+        <li><a href="./">Un petit manuel de psychologie contemporaine à destination de ceux qui souffrent</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     toc_depth: 1
