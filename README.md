@@ -1,0 +1,1 @@
+Ce livre présente mes notes sur ma compréhension des enseignements de la psychologie contemporaine, collevctées à l'intention de ceux qui souffrent et qui veulent voir leur condition s'améliorer.
