@@ -28,46 +28,6 @@
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -140,104 +100,63 @@ Ce livre est une série de notes prises pour documenter ma progression dans la c
 
 Les souffrances psychologiques sont une des sources majeures de mal-être dans les sociétés développées contemporaines.
 Je développe dans mes romans des exemples de la souffrance psychologique et de ses résultats sur la vie des gens.
-Dans ce petit manuel, je compile ce que j'ai compris et ce que j'ai trouvé utile dans les enseignement de la psychologie contemporaine, et notamment des approches comportementale et cognitive et de la théorie de la personnalité.
+Dans ce petit manuel, je compile ce que j'ai compris et ce que j'ai trouvé utile dans les enseignement de la psychologie contemporaine pour résoudre les souffrances psychologiques.
 
-\hypertarget{intro}{%
-\chapter{Introduction}\label{intro}}
+J'aborde notamment les approches comportementale et cognitive, la théorie de la personnalité et la science de la mesure du bien-être ainsi que les programmes de développement des compétences socio-émotionnelles chez les enfants.
 
-You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{methods}.
+Ce livre vise à familiariser les lecteurs français avec les résultats de la psychologie comportementale et cognitive et en donner ma propre lecture.
+Fans mon expérience, un livre peut être une source de réconfort et de croissance personnelle.
+C'est notamment le cas si vous souhaitez améliorer votre confort de vie et réduire votre souffrance psychologique alors qu'elle n'est pas pathologique.
 
-Figures and tables with captions will be placed in \texttt{figure} and \texttt{table} environments, respectively.
+Si vous souffrez dans des conditions bien supérieures (et plusieurs tests dans le livre vous aideront à le décider), consultez.
+Un livre ne saurait se substituer à une relation thérapeutique.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{par}\NormalTok{(}\DataTypeTok{mar =} \KeywordTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, }\FloatTok{.1}\NormalTok{, }\FloatTok{.1}\NormalTok{))}
-\KeywordTok{plot}\NormalTok{(pressure, }\DataTypeTok{type =} \StringTok{'b'}\NormalTok{, }\DataTypeTok{pch =} \DecValTok{19}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+Ce livre est aussi open source et collaboratif, donc si vous le souhaitez, vous pouvez le brancher et faire des corrections et des propositions.
 
-\begin{figure}
+\hypertarget{les-bases-de-la-psychologie-individuelle}{%
+\chapter{Les bases de la psychologie individuelle}\label{les-bases-de-la-psychologie-individuelle}}
 
-{\centering \includegraphics[width=0.8\linewidth]{MANUAL_files/figure-latex/nice-fig-1} 
+\hypertarget{les-traits-de-personnalite}{%
+\section{Les traits de personnalité}\label{les-traits-de-personnalite}}
 
-}
+\hypertarget{la-mesure-du-quotient-intellectuel}{%
+\section{La mesure du Quotient Intellectuel}\label{la-mesure-du-quotient-intellectuel}}
 
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
+\hypertarget{la-mesure-du-bien-etre}{%
+\section{La mesure du bien-être}\label{la-mesure-du-bien-etre}}
 
-Reference a figure by its code chunk label with the \texttt{fig:} prefix, e.g., see Figure \ref{fig:nice-fig}. Similarly, you can reference tables generated from \texttt{knitr::kable()}, e.g., see Table \ref{tab:nice-tab}.
+\hypertarget{la-mesure-de-la-souffrance-psychologique}{%
+\section{La mesure de la souffrance psychologique}\label{la-mesure-de-la-souffrance-psychologique}}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}
-  \KeywordTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\DataTypeTok{caption =} \StringTok{'Here is a nice table!'}\NormalTok{,}
-  \DataTypeTok{booktabs =} \OtherTok{TRUE}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\hypertarget{la-souffrance-psychologique-le-bien-etre-et-la-personnalite}{%
+\chapter{La souffrance psychologique, le bien-être et la personnalité}\label{la-souffrance-psychologique-le-bien-etre-et-la-personnalite}}
 
-\begin{table}[t]
+\hypertarget{traits-psychologiques-et-trajectoires-de-vie}{%
+\section{Traits psychologiques et trajectoires de vie}\label{traits-psychologiques-et-trajectoires-de-vie}}
 
-\caption{\label{tab:nice-tab}Here is a nice table!}
-\centering
-\begin{tabular}{rrrrl}
-\toprule
-Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
-\midrule
-5.1 & 3.5 & 1.4 & 0.2 & setosa\\
-4.9 & 3.0 & 1.4 & 0.2 & setosa\\
-4.7 & 3.2 & 1.3 & 0.2 & setosa\\
-4.6 & 3.1 & 1.5 & 0.2 & setosa\\
-5.0 & 3.6 & 1.4 & 0.2 & setosa\\
-\addlinespace
-5.4 & 3.9 & 1.7 & 0.4 & setosa\\
-4.6 & 3.4 & 1.4 & 0.3 & setosa\\
-5.0 & 3.4 & 1.5 & 0.2 & setosa\\
-4.4 & 2.9 & 1.4 & 0.2 & setosa\\
-4.9 & 3.1 & 1.5 & 0.1 & setosa\\
-\addlinespace
-5.4 & 3.7 & 1.5 & 0.2 & setosa\\
-4.8 & 3.4 & 1.6 & 0.2 & setosa\\
-4.8 & 3.0 & 1.4 & 0.1 & setosa\\
-4.3 & 3.0 & 1.1 & 0.1 & setosa\\
-5.8 & 4.0 & 1.2 & 0.2 & setosa\\
-\addlinespace
-5.7 & 4.4 & 1.5 & 0.4 & setosa\\
-5.4 & 3.9 & 1.3 & 0.4 & setosa\\
-5.1 & 3.5 & 1.4 & 0.3 & setosa\\
-5.7 & 3.8 & 1.7 & 0.3 & setosa\\
-5.1 & 3.8 & 1.5 & 0.3 & setosa\\
-\bottomrule
-\end{tabular}
-\end{table}
+\hypertarget{traits-psychologiques-et-bien-etre}{%
+\section{Traits psychologiques et bien-être}\label{traits-psychologiques-et-bien-etre}}
 
-You can write citations, too. For example, we are using the \textbf{bookdown} package {[}@R-bookdown{]} in this sample book, which was built on top of R Markdown and \textbf{knitr} {[}@xie2015{]}.
+\hypertarget{traits-psychologiques-et-souffrance-psychologique}{%
+\section{Traits psychologiques et souffrance psychologique}\label{traits-psychologiques-et-souffrance-psychologique}}
 
-\hypertarget{literature}{%
-\chapter{Literature}\label{literature}}
+\hypertarget{comment-lutter-contre-la-souffrance-psychologique}{%
+\chapter{Comment lutter contre la souffrance psychologique}\label{comment-lutter-contre-la-souffrance-psychologique}}
 
-Here is a review of existing methods.
+\hypertarget{la-therapie-rationnelle}{%
+\section{La thérapie rationnelle}\label{la-therapie-rationnelle}}
 
-\hypertarget{methods}{%
-\chapter{Methods}\label{methods}}
+\hypertarget{les-therapies-cognitives-comportementales}{%
+\section{Les thérapies cognitives comportementales}\label{les-therapies-cognitives-comportementales}}
 
-We describe our methods in this chapter.
+\hypertarget{les-therapies-de-troisieme-generation}{%
+\section{Les thérapies de troisième génération}\label{les-therapies-de-troisieme-generation}}
 
-\hypertarget{applications}{%
-\chapter{Applications}\label{applications}}
+\hypertarget{les-programmes-pour-les-enfants}{%
+\section{Les programmes pour les enfants}\label{les-programmes-pour-les-enfants}}
 
-Some \emph{significant} applications are demonstrated in this chapter.
-
-\hypertarget{example-one}{%
-\section{Example one}\label{example-one}}
-
-\hypertarget{example-two}{%
-\section{Example two}\label{example-two}}
-
-\hypertarget{final-words}{%
-\chapter{Final Words}\label{final-words}}
-
-We have finished a nice book.
+\hypertarget{conseils-pour-une-pratique-quotidienne}{%
+\chapter{Conseils pour une pratique quotidienne}\label{conseils-pour-une-pratique-quotidienne}}
 
 
 \end{document}
